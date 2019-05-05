@@ -1,0 +1,18 @@
+@font-face {
+	font-family: 'A Futurica';
+	src: url('../fonts/a_futurica.eot');
+	src: url('../fonts/a_futurica.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/a_futurica.woff') format('woff'),
+	url('../fonts/a_futurica.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'A Futurica Black';
+	src: url('../fonts/a_FuturicaBlack.eot');
+	src: url('../fonts/a_FuturicaBlack.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/a_FuturicaBlack.woff') format('woff'),
+	url('../fonts/a_FuturicaBlack.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

@@ -1,0 +1,173 @@
+.page-logo {
+	display: block;
+	margin: 0 auto;
+	padding: 20px 0 0 0;
+}
+.page-header {
+	border-bottom: 2px solid #4c4d5e;
+	margin-bottom: 80px;
+	box-shadow: 0px 4px 6px -5px #000000;
+}
+.time-work {
+	position: relative;
+	padding-left: 80px;
+	margin-right: 80px;
+}
+.time-work:before {
+	position: absolute;
+	top: 50%;
+	left: 15%;
+	transform: translate(-50%,-50%);
+	content: "";
+	width: 40px;
+	height: 40px;
+	background-image: url(../img/header/time-work.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.time-work__item {
+	letter-spacing: 1px;
+	font-size: 14px;
+	margin: 0;
+	color: #000;
+	margin-bottom: 6px;
+}
+.row-whom {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 80px;
+}
+.row-whom__item {
+	position: relative;
+	width: 320px;
+	height: 260px;
+	background-image: url(../img/page/row-whom/1.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-bottom: 80px;
+}
+.row-whom__item:nth-child(2) {
+	background-image: url(../img/page/row-whom/2.png);
+}
+.row-whom__item:nth-child(3) {
+	background-image: url(../img/page/row-whom/3.png);
+}
+.row-whom__item:nth-child(4) {
+	background-image: url(../img/page/row-whom/4.png);
+}
+.row-whom__item:nth-child(5) {
+	background-image: url(../img/page/row-whom/5.png);
+}
+.row-whom__item:nth-child(6) {
+	background-image: url(../img/page/row-whom/6.png);
+}
+
+.girl {
+	position: absolute;
+	top: 10%;
+	right: 10%;
+	width: 100px;
+	height: 220px;
+	background-image: url(../img/page/row-whom/girl.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.row-whom__title {
+	width: 240px;
+	height: 60px;
+	padding: 60px 0 20px 40px;
+	text-transform: uppercase;
+	font-size: 32px;
+	font-weight: 500;
+	line-height: 1;
+	margin: 0;
+}
+.row-whom__btn {
+	display: block;
+	width: 140px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000;
+	font-weight: 700;
+	font-size: 14px;
+	padding: 8px;
+	border: 1px solid #000;
+	border-radius: 20px;
+	margin-left: 40px;
+}
+.page-brands {
+	background: none;
+}
+.brands-container {
+	height: 560px;
+	background-image: url(../img/page/brands/1.png);
+	background-size: 820px;
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	margin-bottom: 80px;
+}
+.boxes-list {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 80px;
+}
+.buy {
+	display: flex;
+	justify-content: center;
+}
+.buy-img {
+	display: block;
+	width: 280px;
+	padding: 60px;
+}
+.buy-block {
+	position: relative;
+}
+.buy-block__title {
+	color: #000;
+	font-family: 'A Futurica Black';
+	text-transform: uppercase;
+	font-size: 18px;
+	margin-bottom: 40px;
+}
+.buy-block__text {
+	font-size: 14px;
+	margin: 0;
+	margin-bottom: 12px;
+}
+.buy-block__price {
+	font-size: 18px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-family: 'A Futurica Black';
+}
+.buy-block__btn {
+	display: inline-block;
+	width: 120px;
+	color: #ffffff;
+	padding: 8px;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'A Futurica Black';
+	border-radius: 20px;
+	background-color: #fe2f78;
+	font-weight: 700;
+	cursor: pointer;
+	margin-right: 40px;
+}
+.page-in-garbage {
+	position: absolute;
+	right: 0;
+	bottom: 40%;
+}
+.buy-block__description {
+	width: 300px;
+	font-size: 16px;
+	line-height: 1.2;
+}
